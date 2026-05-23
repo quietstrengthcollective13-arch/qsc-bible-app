@@ -174,8 +174,9 @@ function DailyWordTab({ entry }) {
       <div style={{ background: `linear-gradient(150deg, ${C.tentDark} 0%, ${C.tentMid} 100%)`,
         borderRadius: "10px", padding: "1.75rem 1.5rem", marginBottom: "1rem",
         border: `1px solid rgba(200,149,106,0.18)`, position: "relative", overflow: "hidden" }}>
-        <div style={{ position: "absolute", top: "-15px", right: "-10px", fontSize: "6rem",
-          color: "rgba(200,149,106,0.07)", fontFamily: "Georgia, serif", userSelect: "none" }}>✝</div>
+        <div style={{ position: "absolute", bottom: "10px", right: "10px", fontSize: "3rem",
+          color: "rgba(200,149,106,0.06)", fontFamily: "Georgia, serif", userSelect: "none",
+          pointerEvents: "none", zIndex: 0 }}>✝</div>
         <div style={{ fontSize: "0.6rem", letterSpacing: "0.28em", color: C.gold,
           textTransform: "uppercase", marginBottom: "1.2rem" }}>✦ Today's Word ✦</div>
         <p style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: "1rem",
